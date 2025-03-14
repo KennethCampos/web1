@@ -1,0 +1,32 @@
+
+#titulo{
+    color: #ae15cc;
+    font-size: 35px;
+    background-color: #000000;
+}
+
+h3{
+    color: #0ad124;
+    font-size: 35px;
+    background-color: #000000;
+
+
+}
+
+.titulo2{
+    color: #d10a0a;
+    font-size: 35px;
+    background-color: #000000;
+
+
+}
+
+.textonormal{
+    color: #0acad1;
+    font-size: 35px;
+   font-weight: bold;
+   text-decoration: underline;
+   background-color: #d10a0a;
+
+
+}
