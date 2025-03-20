@@ -1,0 +1,44 @@
+/* boton principal */
+
+.custom-btn {
+    background-color: #d28819; /* Azul oscuro */
+    color: white;
+  }
+  
+  .custom-btn:hover {
+    background-color: #1565c0;
+  }
+  
+  /* Estilos para los botones de redes sociales */
+  .facebook-btn {
+    background-color: #3b5998;
+    color: white;
+  }
+  
+  .facebook-btn:hover {
+    background-color: #2d4373;
+  }
+  
+  .twitter-btn {
+    background-color: #1da1f2;
+    color: white;
+  }
+  
+  .twitter-btn:hover {
+    background-color: #0d8bd9;
+  }
+  
+  .google-btn {
+    background-color: #db4437;
+    color: white;
+  }
+  
+  .google-btn:hover {
+    background-color: #c1351d;
+  }
+  
+
+  .social-login button {
+    margin-top: 10px;
+  }
+  
