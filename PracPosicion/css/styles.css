@@ -1,0 +1,87 @@
+
+div.container-flex{
+
+    width:90%;
+    height: 400px;
+    border: 5px solid rgb(197, 52, 52);
+    display: flex;
+   /* flex-direction: column;*/
+   
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   /*align-items:stretch;*/
+}
+
+div div{
+    width: 100px;
+    height: 100px;
+    border: 3px solid black;
+
+    
+
+}
+/*
+div{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+
+}
+*/
+div.cajas1{
+
+    background-color: brown;
+    position: relative;
+    left: 350px;
+    top: 300px;
+    width: 450px; 
+    height: 50px;
+}
+
+div.cajas2{
+
+    background-color:rgb(126, 126, 126);
+    position:absolute;
+    clear: both;
+    top: 360px;
+    left: 358px;
+    width: 450px; 
+    height: 450px;
+}
+
+div.cajas3{
+
+    background-color:rgb(225, 228, 42);
+    position: relative;
+    left: 530px;
+    top: 650px;
+    width: 100px; 
+    height: 100px;
+
+}
+
+div.cajas4{
+
+    background-color:rgb(0, 38, 255);
+    position: relative;
+    clear: both;
+    left: 370px;
+    top: 300px;
+    width: 100px; 
+    height: 100px;
+}
+
+div.cajas5{
+
+    background-color:rgb(47, 45, 214);
+    position: relative;
+    left: 680px;
+    top: 320px;
+    width: 100px; 
+    height: 100px;
+
+}
+
+
+
+ 
