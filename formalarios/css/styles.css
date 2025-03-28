@@ -1,0 +1,80 @@
+
+
+body{
+    background-color: #e0d9d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+
+
+}
+
+.login{
+    background-color: rgb(129, 215, 218);
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow:0px 0px 15px rgb(13, 89, 151) ;
+    max-width: 350px;
+
+}
+
+
+.login h2{
+    text-align: center;
+    background-color: rgb(154, 230, 233);
+    margin-bottom: 30px;
+
+}
+
+.login label{
+
+    display: block;
+    margin-bottom: 5px;
+
+}
+
+input[type="text"],input[type="password"]{
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;/* esto es para que el bottuon se baje de los input*/
+    padding: 10px;
+}
+
+div.login button{
+    
+    
+    width: 100px;
+    padding: 10px;
+    background-color: #e0d9d9;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+div.login button:hover{
+    background-color: #918989;
+
+
+}
+
+.olvidar{
+text-align: center;
+margin-top: 20px;
+
+}
+
+.olvidar a{
+text-decoration: none;
+color: black;
+
+}
+
+.olvidar a:hover{
+    text-decoration: underline;
+
+}
