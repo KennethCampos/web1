@@ -1,0 +1,16 @@
+
+.contenedor{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+button{
+
+    font-size: 40px;
+    color: bisque;
+    background-color: black;
+
+}
