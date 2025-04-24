@@ -1,0 +1,75 @@
+/* Estilo general */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Encabezado fijo */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #7a82cf;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
+
+/* Menú de navegación fijo */
+nav {
+  position: fixed;
+  top: 70px; /* Se coloca debajo del encabezado */
+  width: 100%;
+  background-color: #6d76c2;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+/* Sección principal, ajustada debajo del encabezado */
+main {
+  position: relative;
+  margin-top: 100px;
+  padding: 30px;
+}
+
+/* Contenedor del contenido */
+.content {
+  position: relative;
+  width: 80%;
+  margin: auto;
+}
+
+/* Imagen posicionada de manera absoluta */
+.content img {
+  position: absolute;
+  top: 40px;
+  right: 20px;
+  width: 450px;
+  height: 250px;
+}
+
+/* Caja flotante sticky, visible al hacer scroll */
+.stickybox {
+  position: sticky;
+  top: 0; /* La caja se pega a la parte superior cuando se hace scroll */
+  left: 940px; /* Alineada con la imagen */
+  background-color: #eeb365;
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 200px;
+}
