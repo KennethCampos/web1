@@ -1,0 +1,152 @@
+
+
+label{
+
+    display: block;
+}
+
+input{
+
+    display: block;
+    margin: 10px 0px;
+    font-size: 16px;
+    padding: 8px;
+}
+
+button{
+
+    font-size: 16px;
+    padding: 10px 15px;
+
+}
+
+
+
+.navbar {
+    position: sticky;
+    top: 0; 
+    z-index: 1000; 
+    background-color: bisque;
+    
+}
+
+button{
+
+    align-items: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+   
+}
+
+footer a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+header {
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Estilos generales */
+label {
+    display: block;
+}
+
+input {
+    display: block;
+    margin: 10px 0px;
+    font-size: 16px;
+    padding: 8px;
+}
+
+button {
+    font-size: 16px;
+    padding: 10px 15px;
+}
+
+.navbar {
+    position: sticky;
+    top: 0; 
+    
+    background-color: bisque;
+}
+
+button {
+    align-items: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+footer a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+header {
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+@media (max-width: 600px) {
+    
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+
+    
+    .form-item {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    
+    input.form-control, select.form-select, button {
+        width: 100%;
+    }
+
+    
+    .navbar-nav {
+        text-align: center;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .navbar-collapse {
+        display: flex;
+        justify-content: center;
+    }
+
+    
+    button {
+        width: 100%;
+    }
+
+    
+    .form-check-inline {
+        display: block;
+    }
+
+    .navbar-nav .nav-item {
+        display: inline-block;
+        padding: 10px;
+    }
+}
+
+
+
